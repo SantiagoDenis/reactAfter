@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #21222A;
+    height: 15vh;
+    width: 100vw;
+    padding: 30px 25px;
+    margin-bottom: 2vh;
+    
+    &__icon {
+      height: 100%;
+      width: 30%;
+    }
+  
+    &__title {
+      width: 40%;
+      text-align: center;
+    }
+  }
